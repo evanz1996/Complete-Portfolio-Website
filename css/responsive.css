@@ -1,0 +1,49 @@
+/* if the viewport is equal to 340px or less than that**/
+
+@media only screen and (max-width: 340px) {
+  .header_area .main_menu .navbar,
+  .header_area .main_menu .navbar .navbar-brand,
+  .site-main .services-area,
+  .site-main .services-area .services-title,
+  .site-main .about-area,
+  .site-main .about-area .about-title,
+  .site-main .about-area .about-title .para,
+  h1 {
+    padding: 2%;
+    margin: 0%;
+    justify-content: center;
+  }
+  .site-main .about-area .owl-carousel .client .client-img .about-client {
+    padding: 2rem;
+  }
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+  .site-main .site-banner .site-title h4 {
+    font-size: 20px;
+    padding: 0rem;
+  }
+
+  .site-main .subscribe-us-area .subscribe .subscribe-title h4,
+  p {
+    justify-content: center;
+  }
+
+  .site-main .services-area .services {
+    width: 13rem;
+  }
+}
+
+/* if the viewport is equal to 792px or less than that**/
+
+@media only screen and(max-width: 792px) {
+  .site-main .about-area .about-title h2 > span {
+    font-size: 31px;
+    letter-spacing: 10px;
+  }
+
+  .site-main .brand-area .experience-area {
+    margin-left: 30%;
+    width: 80%;
+  }
+}
